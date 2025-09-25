@@ -1,0 +1,14 @@
+User: den47k
+Date: Mon Sep 22 10:51:43 UTC 2025
+
+  1  fg
+  2  ps aux | grep [p]ing
+  3  kill -TERM 12064
+  4  kill -TERM 5591
+  5  ps aux | grep [p]ing
+  6  kill 13235
+  7  sudo kill -9 13235
+  8  sudo pkill -f vlc
+  9  clear
+ 10  printf "User: %s\nDate: %s\n\n" "$(whoami)" "$(date)" > history2.txt
+ 11  history >> history2.txt

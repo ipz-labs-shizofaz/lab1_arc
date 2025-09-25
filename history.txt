@@ -1,0 +1,133 @@
+User: den47k
+Date: Mon Sep 22 10:48:27 UTC 2025
+
+    1  clear
+    2  uname -a
+    3  lsb_release -a
+    4  hostnamectl
+    5  lscpu
+    6  cat /proc/version
+    7  sudo apt update && sudo apt upgrade -y
+    8  cat /etc/apt/sources.list
+    9  ls -la /etc/apt/sources.list.d/
+   10  sudo apt install -y vim
+   11  cd ~
+   12  cd ~/Downloads
+   13  man ls
+   14  ls -l
+   15  dpkg -i package.deb
+   16  sudo dpkg -i package.deb
+   17  cd /
+   18  sudo su -
+   19  echo "hi all"
+   20  echo "$PWD hi all here!"
+   21  clear
+   22  cd ~
+   23  touch hi.sh
+   24  echo "$PATH"
+   25  vi hi.sh
+   26  ls
+   27  ./hi.sh
+   28  chmod a+x hi.sh
+   29  chmod a+rwx hi.sh
+   30  ./hi.sh 
+   31  ./hi.sh Ukraine
+   32  mkdir -p scripts
+   33  cp hi.sh scripts/
+   34  ls
+   35  mkdir Documents
+   36  ls
+   37  cp scripts ~/Documents
+   38  cp -r scripts ~/Documents/
+   39  ls
+   40  cd scripts/
+   41  mv hi.sh ..
+   42  cd ..
+   43  ls
+   44  rm scripts
+   45  rm -r scripts
+   46  cd /bin
+   47  ls -l
+   48  clear
+   49  cd ../..
+   50  cd ~
+   51  clear
+   52  ls
+   53  tar cvzf scripts.tar.gz Documents/scripts/
+   54  ls
+   55  cat usage100/www/chat/blog-backend/app/Http/Controllers/ConversationController.php 
+   56  clear
+   57  sudo less /var/log/syslog
+   58  tail -n 20 /var/log/syslog
+   59  clear
+   60  less /var/log/syslog
+   61  cd /
+   62  find . -name dhcp
+   63  find . -iname '*dhcp*'
+   64  find . -iname '*dhcp*' | grep -i --color=always 'etc\|dhcp' || true
+   65  clear
+   66  ping -c 10 google.com
+   67  ping google.com > ~/ping.log 2>&1 & date >> ~/ping.log &
+   68  sudo ping google.com
+   69  clear
+   70  vlc
+   71  ls -l
+   72  cd /bin
+   73  ls
+   74  echo "$PATH"
+   75  clear
+   76  printenv
+   77  clear
+   78  set
+   79  clear
+   80  whoami
+   81  cd /etc
+   82  ls -la
+   83  clear
+   84  cd ..
+   85  cd /lib
+   86  cd /lib64
+   87  ls -la
+   88  dmesg
+   89  clear
+   90  sudo dmesg
+   91  clear
+   92  ls -la /dev
+   93  sudo dmesg -C
+   94  dmesg | tail -n 30
+   95  df -hT
+   96  clear
+   97  sudo dmesg -C
+   98  dmesg | tail -n 30
+   99  df -hT
+  100  mount | column -t
+  101  cd /home
+  102  ls -la
+  103  lsmod
+  104  cd /proc
+  105  cat /proc/cpuinfo
+  106  echo 1 > /proc/sys/net/ipv4/ip_forward
+  107  sudo -i
+  108  history
+  109  ip addr show
+  110  ip link show
+  111  cd ~
+  112  echo vika > 1.txt
+  113  cat 1.txt
+  114  echo vasya > 2.txt
+  115  cat 2.txt
+  116  diff 1.txt 2.txt
+  117  history 
+  118  clear
+  119  sudo apt install -y pciutils
+  120  lspci
+  121  ls
+  122  printf "User: %s\nDate: %s\n\n" "$(whoami)" "$(date)" > history.txt
+  123  history >> history.txt
+  124  ls
+  125  vi history.txt 
+  126  clear
+  127  vlc
+  128  clear
+  129  printf "User: %s\nDate: %s\n\n" "$(whoami)" "$(date)" > history.txt
+  130  history >> history.txt
